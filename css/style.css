@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.line{  position:absolute;
+        left:2;
+		display:block;
+  		width:50%;
+		height:2px;
+		background-color:#ddd;
+		margin:0;
+		}
+.products{float:left;
+          color:#FFF;
+          }
+.products a:hover{
+          color:#F00;
+         }
+.products a:visited {
+  color: #fff;
+}

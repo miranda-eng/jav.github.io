@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="css/Style-Galery effect.css" type="text/css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="../src/jquery-tjgallery.min.js"></script>
+	<script>
+        $(function() {
+			
+			// waiting for loading page
+			$(window).load(function(){
+				$('.pictures').tjGallery({
+					selector: '.item',
+					margin: 10
+				});
+			})
+			
+			// call desrtoy
+			$('#destroy').click(function(){
+				$('.pictures').tjGallery('destroy');
+				$('#destroy').hide();
+			});
+			
+			
+        })
+    </script>
+	
+	</head>
+	<body>
+<!--gallery effect-->
+<div class="row" style="background-color:#F00;">
+<div class="col-md-4" style="background-color:#0F0;">
+<!--gallery effect-->
+<div class="pictures">
+    <div class="item">
+    <div class="item_description"></div>
+    <img class="img-fluid" src="../../../Trial/Portronics Official Store-Best Innovative Portable High Quality Gadget_files/464.jpg"></div></div></div>
+<div class="col-md-4">
+<div class="pictures">
+    <div class="item">
+    <div class="item_description"></div>
+    <img class="img-fluid" src="Images/Cables & Connectors.jpg"></div></div></div>
+<div class="col-md-4">
+<div class="pictures">
+    <div class="item">
+    <div class="item_description"></div>
+<img class="img-fluid" src="Images/Powerbank.jpg"></div></div></div>
+<!--row--></div><br>
+<!--<div class="pictures">
+    <div class="item">
+    <div class="item_description"></div>
+    <img src="../../../Project/Images/Adapters & Chargers.jpg" alt="" /></div>
+    <div class="item">
+    <div class="item_description"></div>
+    <img src="../../../Project/Images/Cables & Connectors.jpg" alt="" /></div>
+     </div>-->
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!--Gallery effect-->
+</body>
+</html>

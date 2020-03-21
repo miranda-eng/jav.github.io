@@ -1,0 +1,43 @@
+@charset "utf-8";
+<!-- PAGE'S BASE CSS -->
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+
+.elem, .elem * {
+	box-sizing: border-box;
+	margin: 0 !important;		
+}
+.elem {
+	display: inline-block;
+	font-size: 0;
+	width: 100%;
+	border: 20px solid transparent;
+
+	border-bottom: none;
+	background: #fff;	
+	padding: 10px;
+	height:440px;
+	background-clip: padding-box;
+}
+.elem > span {
+	display: block;
+	cursor: pointer;
+	height: 400px;
+	padding-bottom:	70%;	
+	background-size: cover;	
+	background-position: center center;
+}
+
+<!-- LIGHTBOX FADING SHOW/HIDE EFFECT (as explained in documentation) -->
+<style type="text/css">
+.lcl_fade_oc.lcl_pre_show #lcl_overlay,
+.lcl_fade_oc.lcl_pre_show #lcl_window,
+.lcl_fade_oc.lcl_is_closing #lcl_overlay,
+.lcl_fade_oc.lcl_is_closing #lcl_window {
+	opacity: 0 !important;
+}
+.lcl_fade_oc.lcl_is_closing #lcl_overlay {
+	-webkit-transition-delay: .15s !important; 
+	transition-delay: .15s !important;
+}
+/* CSS Document */
+
